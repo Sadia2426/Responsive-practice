@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro1 {
+    font-size: 40px;
+}
+
+.intro2 {
+    font-size: 20px;
+}
+
+.hero {
+    height: 450px;
+    background-image: url(images/image\ cover.jpg);
+    color: #56b8b8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.parent{
+    display: flex;
+    margin-left: 700px;
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+
+
+.input {
+
+    font-size: 30px;
+    color: #588383;
+    padding-left: 200px;
+    margin: 0px;
+    width: 300px;  
+}
+
+.item {
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 270px;
+    width: 32.7%;
+    color: rgb(36, 4, 23);
+    margin: 4px;
+}
+
+.footer {
+    box-sizing: border-box;
+    background-color: bisque;
+    margin: 0px;
+    padding: 0;
+    height: 600px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.item1 {
+    width: 33.33%;
+    float: left;
+}
+
+
+
+@media screen and (max-width:1262px) {
+    .item {
+        height: 230px;
+        width: 32.6%;
+    }
+}
+
+@media screen and (max-width:1091px) {
+    .item {
+        height: 230px;
+        width: 32.5%;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .item {
+        height: 230px;
+        width: 32.4%;
+    }
+}
+
+@media screen and (max-width:857px) {
+    .item {
+        height: 230px;
+        width: 32.3%;
+    }
+}
+
+@media screen and (max-width:774px) {
+    .item {
+        height: 230px;
+        width: 32.2%;
+    }
+}
+
+@media screen and (max-width:706px) {
+    .item {
+        height: 230px;
+        width: 32.1%;
+    }
+}
+
+@media screen and (max-width:649px) {
+    .item {
+        height: 230px;
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .item {
+        height: 230px;
+        width: 31.9%;
+    }
+}
+
+@media screen and (max-width:558px) {
+    .item {
+        height: 230px;
+        width: 31.8%;
+    }
+}
+
+@media screen and (max-width:521px) {
+    .item {
+        height: 230px;
+        width: 31.7%;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .item {
+        height: 230px;
+        width: 31.6%;
+    }
+}
+
+@media screen and (max-width:461px) {
+    .item {
+        height: 230px;
+        width: 31.5%;
+    }
+}
+
+@media screen and (max-width:437px) {
+    .item {
+        height: 230px;
+        width: 31.4%;
+    }
+}
